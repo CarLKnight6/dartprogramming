@@ -5,15 +5,23 @@ void main(){
  //stdout.write("entername:");
  //haha = stdin.readLineSync();
  //print("$haha");
- List<int> numbers = [100,35,66,24,90,33];
- int sum,i=0;
+ List list = [100,35,66,24,90,33];
+ int sum=0;
  double averages;
-  for( i=0 ; i<= numbers.length-1 ; i++){
-       sum += numbers[i];
-       
+ int smallest = list[0];
+
+  for(var i=0 ; i<= list.length-1 ; i++){
+      sum += list[i];
+      averages = sum / list.length;
+      if(list[i]<smallest){
+        smallest = list[i];
+      }
+    
   }
-  averages = sum / i;
+
+  
   print("Sum: $sum");
   print("Averages: $averages");
+  print("Smallest: $smallest");
 
 }
