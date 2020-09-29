@@ -14,7 +14,6 @@ void main(){
   }
   averages = sum / i;
   print("Sum: $sum");
-  
   print("Averages: $averages");
 
 }
