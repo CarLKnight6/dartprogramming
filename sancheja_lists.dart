@@ -11,11 +11,10 @@ void main(){
   for( i=0 ; i<= numbers.length-1 ; i++){
        sum += numbers[i];
        
-       
-
   }
   averages = sum / i;
   print("Sum: $sum");
+  
   print("Averages: $averages");
 
 }
