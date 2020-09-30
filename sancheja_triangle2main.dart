@@ -1,4 +1,4 @@
-import "triangle.dart";
+import 'sancheja_triangle2.dart';
 void main(){
 Triangle triangle1 = new Triangle(18,30,24);
 Triangle triangle2 = new Triangle(9,9,9);
